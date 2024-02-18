@@ -71,11 +71,11 @@ function convertToBase64(file) {
 const Register = () => {
   const years = ["1st", "2nd", "3rd", "4th"];
   const events = [
-    "Bug Bounty",
+    "Algo Mania",
     "Design-X",
     "Hackathon",
     "Mock Placement",
-    "Escape Room",
+    "Binary Breakout",
   ];
 
   const [data, setData] = useState({
@@ -86,7 +86,7 @@ const Register = () => {
     college_name: "",
     college_department: "",
     current_year: "1st",
-    event_name: "Bug Bounty",
+    event_name: "Algo Mania",
     payment_id: "",
     team_members: [],
     teammember1: "",
@@ -127,7 +127,7 @@ const Register = () => {
 
   useEffect(() => {
     if (
-      data.event_name === "Bug Bounty" ||
+      data.event_name === "Algo Mania" ||
       data.event_name === "Mock Placement"
     ) {
       setFees(30);
@@ -145,7 +145,7 @@ const Register = () => {
       setFees(fee);
     } else if (
       data.event_name === "Design-X" ||
-      data.event_name === "Escape Room"
+      data.event_name === "Binary Breakout"
     ) {
       let fee = 30;
       if (data.teammember1.length > 0) {
@@ -218,15 +218,16 @@ const Register = () => {
       notifyError("Please fill all required fields");
       setLoading(false);
     } else if (
-      data.event_name === "Bug Bounty" ||
+      data.event_name === "Algo Mania" ||
       data.event_name === "Mock Placement"
     ) {
       const team = `[${data.first_name} ${data.last_name}]`;
 
       try {
         console.log("formdata", data);
+        console.log(`${process.env.REACT_APP_NODE_BACKEND}api/register`);
         const response = await axios.post(
-          "http://localhost:8080/api/register",
+          `${process.env.REACT_APP_NODE_BACKEND}api/register`,
           data,
           {
             headers: {
@@ -234,10 +235,24 @@ const Register = () => {
             },
           }
         );
-        console.log("response", response);
-        console.log("response data", response.data);
 
-        notifySuccess("Your registration has been successfully completed.");
+        if (
+          response.data.code === 11000 &&
+          response.data.keyPattern &&
+          response.data.keyPattern.payment_id
+        ) {
+          console.log("response", response);
+          console.log("response data", response.data);
+          notifyError(
+            "Duplicate Payment Id Detected. Please enter a different Id."
+          );
+        } else {
+          console.log("response", response);
+          console.log("response data", response.data);
+
+          notifySuccess("Your registration has been successfully completed.");
+        }
+
         setData({
           first_name: "",
           last_name: "",
@@ -246,7 +261,7 @@ const Register = () => {
           college_name: "",
           college_department: "",
           current_year: "1st",
-          event_name: "Bug Bounty",
+          event_name: "Algo Mania",
           payment_id: "",
           team_members: [],
           teammember1: "",
@@ -264,7 +279,7 @@ const Register = () => {
         setLoading(false);
       }
     } else if (
-      data.event_name !== "Bug Bounty" ||
+      data.event_name !== "Algo Mania" ||
       data.event_name !== "Mock Placement"
     ) {
       let team = [];
@@ -286,7 +301,7 @@ const Register = () => {
 
       try {
         const response = await axios.post(
-          "http://localhost:8080/api/register",
+          `${process.env.REACT_APP_NODE_BACKEND}api/register`,
           data,
           {
             headers: {
@@ -304,7 +319,7 @@ const Register = () => {
           college_name: "",
           college_department: "",
           current_year: "1st",
-          event_name: "Bug Bounty",
+          event_name: "Algo Mania",
           payment_id: "",
           team_members: [],
           teammember1: "",
@@ -328,7 +343,7 @@ const Register = () => {
   return (
     <div className={styles.register}>
       <Helmet>
-        <title>Mpulse Ignite 2023 | Register</title>
+        <title>Mpulse Ignite 2024 | Register</title>
       </Helmet>
 
       {/* <img src="/ignite-logo.png" alt="ignite-logo" /> */}
@@ -447,7 +462,7 @@ const Register = () => {
           </div>
         </div>
         {(data.event_name === "Hackathon" ||
-          data.event_name === "Escape Room" ||
+          data.event_name === "Binary Breakout" ||
           data.event_name === "Design-X") && (
           <>
             <div className={styles.row1}>

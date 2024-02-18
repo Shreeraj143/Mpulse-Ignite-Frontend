@@ -1,5 +1,5 @@
 .register {
-  background: #2b2141;
+  background: #333333;
   min-height: 100vh;
   display: flex;
   align-items: center;
@@ -83,7 +83,7 @@
   border: none;
   font-size: 12px;
   color: #fdfdfd;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 4px;
   border-radius: 4px;
 }

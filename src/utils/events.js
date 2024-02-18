@@ -1,24 +1,29 @@
 const data = [
   {
     id: 1,
-    title: "Hackathon",
+    title: "I2E Hackathon",
     image: "/events/hackathon.png",
     data: [
       {
         intro: [
-          `It is a 9-hour tech hackathon event to develop innovative solutions using technology. Work with like-minded individuals to develop solutions that address real-world problems such as cybersecurity, artificial intelligence, blockchain, and more. The event is open to all college students, and you'll have access to mentors and resources to help you bring your ideas to life. So form a team, and let's use coding for change to make a positive impact on the world!
-          `,
-          "Fees structure Rs. 150 (per person)",
+          "Innovator to Entrepreneur: Hackathon, a two-day event offers participants a unique opportunity to showcase their problem-solving prowess and innovative thinking. With the freedom to choose their domain, attendees will tackle real-world challenges, developing comprehensive solutions and crafting viable business models. Through hands-on experience and collaborative teamwork, participants will sharpen their technical skills, critical thinking abilities, and presentation expertise.",
+          "Date- 23 & 24 Feb 2024.",
+          "Entry Fees- 100/- per TEAM",
+
+          "Judging criteria-",
+          "● Idea/Solution",
+          "● Product",
+          "● Business potential",
+          "● Presentation",
         ],
         rules: [
-          "Teams: Each team should consist of a minimum of 2 and a maximum of 4 members.",
-          "Project: Teams must create a project that meets the theme of the hackathon. The project must be original and must not have been previously submitted to any other hackathon.",
-          "Code: All code must be written during the hackathon. Teams are not allowed to use code from pre-existing projects or code written by other people who are not on their team. However, teams can use third-party libraries, APIs, and other tools that are freely available.",
-          "Technology: There are no limitations on the technologies that can be used to build the project. Teams can use any language, platform, or framework.",
-          "Presentation: Each team must present their project to the judges at the end of the hackathon. The presentation should include a demo of the project, an explanation of the technology used, and a summary of the features and benefits of the project.",
-          "Judging: Projects will be judged on the basis of their idea, execution, feasibility, usability, and development process. Judges will be looking for innovative and practical solutions that demonstrate technical excellence and creativity.",
-          "Conduct: Participants are expected to behave professionally and respectfully towards each other and the judges. Any behavior that is considered inappropriate or disruptive will result in disqualification.",
-          "Intellectual Property: Each team owns the intellectual property rights to their project. However, by participating in the hackathon, teams agree to allow the organizers to use their project for promotional and educational purposes.",
+          "Team size should be restricted to 1-4 team members only.",
+          "All code must be original and developed during the hackathon.",
+          "Each team will be given a specific time slot for a presentation (e.g., 5 minutes). Presentations should cover the problem statement, solution, business model, and potential impact.",
+          "Teams are required to maintain a public repository on platforms like GitHub to store the code of the first day and is not allowed to access it outside the event venue until 2nd day.",
+          "Violation of any rules or code of conduct may lead to immediate disqualification.",
+          "Final decision will rest with the organisers.",
+          "College devices will be provided and personal devices are allowed as well.",
         ],
         rounds: [
           {
@@ -51,16 +56,16 @@ const data = [
     data: [
       {
         intro: [
-          "It gives a platform to experience the placement event.",
-          "It will help you to find out what is the placement procedure and where do you stand.",
-          "Candidates will be participating individually.",
-          "Fees structure Rs. 30 (per person)",
+          "The mock placement is a simulated exercise designed to prepare participants for real-world job placement interviews in a corporate or professional setting. This event replicates the structure and atmosphere of actual job interviews, providing participants with invaluable experience, feedback, and confidence to excel in their future career endeavours.",
+          "Date-23rd Feb, 2024",
+          "Entry fees - 30 /-",
         ],
         rules: [
           "No internet access for any rounds.",
-          "Use of calculator is allowed",
-          "If anyone found cheating, he will be immediately disqualified.",
-          "Final decisions will rest with the organizers.",
+          "No electronic devices are allowed during the test.",
+          "Carry a copy of your resume.",
+          "Violation of any rules or code of conduct may lead to immediate disqualification.",
+          "Final decision will rest with the organisers.",
         ],
         rounds: [
           {
@@ -108,14 +113,17 @@ const data = [
     data: [
       {
         intro: [
-          "An escape room is a type of physical adventure game where players are imprisoned in a themed room and have a set amount of time to solve a series of puzzles and riddles in order to escape. The rooms are created so that you will be in the right environment to address the challenges presented.An escape room may have logic puzzles, hidden objects, ciphers, and physical challenges, among other types of puzzles. Players must utilize their talents of observation and deduction to find the clues because they are frequently concealed within the room. With teams of four individuals, escape rooms are typically played, and the activity is meant to promote communication and teamwork. The riddles require cooperation from the players.",
-          "Fees structure Rs. 30 (per person)",
+          `Participants are presented with a series of binary-encoded challenges, ranging from deciphering encrypted messages to navigating through complex logic gates. To succeed, participants must employ their knowledge of binary code, Boolean algebra, and algorithmic thinking to unlock clues, solve puzzles, and ultimately "break out" of each stage.`,
+
+          "Date- 23/02/2024 - 24/02/2024",
+          "Entry Fees- 30/-",
         ],
         rules: [
-          "Participants must respect the property and facilities of the event venue and not cause any damage or disturbance.",
-          `Cheating, such as stealing another team's chits or hiding chits, is strictly prohibited and will result in disqualification from the event.`,
-          "Each team must follow the designated route and not venture outside of the designated area for the event.",
-          "The organizers reserve the right to disqualify any participant or team for violating the rules or causing disruption to the event.",
+          "Team size should be restricted to 3-4 team members only.",
+          "Round 1 will be conducted on Day 1 (23rd Feb), Final Round on Day 2 (24th Feb).",
+          "Team that takes the least amount of time to complete the tasks will be declared as the winner.",
+          "Violation of any rules or code of conduct may lead to immediate disqualification.",
+          "Final decision will rest with the organisers.",
         ],
         rounds: [
           {
@@ -139,8 +147,10 @@ const data = [
     data: [
       {
         intro: [
-          "An escape room is a type of physical adventure game where players are imprisoned in a themed room and have a set amount of time to solve a series of puzzles and riddles in order to escape. The rooms are created so that you will be in the right environment to address the challenges presented.An escape room may have logic puzzles, hidden objects, ciphers, and physical challenges, among other types of puzzles. Players must utilize their talents of observation and deduction to find the clues because they are frequently concealed within the room. With teams of four individuals, escape rooms are typically played, and the activity is meant to promote communication and teamwork. The riddles require cooperation from the players.",
-          "Fees structure Rs. 30 (per person) needs to be changed",
+          "Algomania is an electrifying competition designed to ignite the passion for algorithms and problem-solving among participants. This event serves as a platform for individuals to showcase their prowess in algorithmic thinking, data structures, and computational efficiency but in a fun way. In Algomania, participants are presented with a series of algorithmic challenges of varying difficulty levels.",
+
+          "Date- 24/02/2024",
+          "Entry Fees - 30 / -",
         ],
         rules: [
           "Participants must respect the property and facilities of the event venue and not cause any damage or disturbance.",

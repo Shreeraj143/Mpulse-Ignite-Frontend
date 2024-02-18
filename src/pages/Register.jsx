@@ -7,15 +7,8 @@ import styles from "../styles/pages/Register.module.css";
 import imageCompression from "browser-image-compression";
 
 const qrs = {
-  30: "/qrs/30rs.jpeg",
-  60: "/qrs/60rs.jpeg",
-  90: "/qrs/90rs.jpeg",
-  120: "/qrs/120rs.jpeg",
-  150: "/qrs/150rs.jpeg",
-  200: "/qrs/200rs.jpeg",
-  300: "/qrs/300rs.jpeg",
-  450: "/qrs/450rs.jpeg",
-  600: "/qrs/600rs.jpeg",
+  30: "/qrs/30rs.png",
+  100: "/qrs/100rs.png",
 };
 
 const units = ["bytes", "KiB", "MiB", "GiB", "TiB", "PiB", "EiB", "ZiB", "YiB"];
@@ -128,37 +121,40 @@ const Register = () => {
   useEffect(() => {
     if (
       data.event_name === "Algo Mania" ||
-      data.event_name === "Mock Placement"
-    ) {
-      setFees(30);
-    } else if (data.event_name === "Hackathon") {
-      let fee = 150;
-      if (data.teammember1.length > 0) {
-        fee += 150;
-      }
-      if (data.teammember2.length > 0) {
-        fee += 150;
-      }
-      if (data.teammember3.length > 0) {
-        fee += 150;
-      }
-      setFees(fee);
-    } else if (
+      data.event_name === "Mock Placement" ||
       data.event_name === "Design-X" ||
       data.event_name === "Binary Breakout"
     ) {
-      let fee = 30;
-      if (data.teammember1.length > 0) {
-        fee += 30;
-      }
-      if (data.teammember2.length > 0) {
-        fee += 30;
-      }
-      if (data.teammember3.length > 0) {
-        fee += 30;
-      }
-      setFees(fee);
+      setFees(30);
+    } else if (data.event_name === "Hackathon") {
+      setFees(100);
+      // let fee = 150;
+      // if (data.teammember1.length > 0) {
+      //   fee += 150;
+      // }
+      // if (data.teammember2.length > 0) {
+      //   fee += 150;
+      // }
+      // if (data.teammember3.length > 0) {
+      //   fee += 150;
+      // }
     }
+    //  else if (
+    //   data.event_name === "Design-X" ||
+    //   data.event_name === "Binary Breakout"
+    // ) {
+    //   let fee = 30;
+    //   if (data.teammember1.length > 0) {
+    //     fee += 30;
+    //   }
+    //   if (data.teammember2.length > 0) {
+    //     fee += 30;
+    //   }
+    //   if (data.teammember3.length > 0) {
+    //     fee += 30;
+    //   }
+    //   setFees(fee);
+    // }
   }, [data]);
 
   const onYearChange = (e) => {

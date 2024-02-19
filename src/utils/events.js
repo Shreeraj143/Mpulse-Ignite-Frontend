@@ -2,7 +2,7 @@ const data = [
   {
     id: 1,
     title: "I2E Hackathon",
-    image: "/events/I2E-Hackathon.png",
+    image: "/events/I2E-Hackathon-Resized.png",
     data: [
       {
         intro: [
@@ -50,7 +50,7 @@ const data = [
   {
     id: 2,
     title: "Mock Placement",
-    image: "/events/Mock-Placement.png",
+    image: "/events/Mock-Placement-Resized.png",
     data: [
       {
         intro: [
@@ -96,7 +96,7 @@ const data = [
   {
     id: 3,
     title: "Binary Breakout",
-    image: "/events/Binary-Breakout.png",
+    image: "/events/Binary-Breakout-Resized.png",
     data: [
       {
         intro: [
@@ -135,7 +135,7 @@ const data = [
   {
     id: 4,
     title: "Algo Mania",
-    image: "/events/AlgoMania.png",
+    image: "/events/AlgoMania-Resized.png",
     data: [
       {
         intro: [
@@ -168,7 +168,7 @@ const data = [
   {
     id: 5,
     title: "DesignX 2.0",
-    image: "/events/DesignX-2.0.png",
+    image: "/events/DesignX-2.0-Resized.png",
     data: [
       {
         intro: [

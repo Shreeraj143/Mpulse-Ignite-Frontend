@@ -2,7 +2,7 @@ const data = [
   {
     id: 1,
     title: "I2E Hackathon",
-    image: "/events/hackathon.png",
+    image: "/events/I2E-Hackathon.png",
     data: [
       {
         intro: [
@@ -50,7 +50,7 @@ const data = [
   {
     id: 2,
     title: "Mock Placement",
-    image: "/events/mockplacement.png",
+    image: "/events/Mock-Placement.png",
     data: [
       {
         intro: [
@@ -70,9 +70,7 @@ const data = [
             roundNo: 1,
             roundName: "Aptitude test",
             roundDesc: [
-              "It is a MCQ test in which participants will be given 30 questions(Based on aptitude topics)",
-              "The participants will be given 30 minutes to solve the maximum possible questions.",
-              "The participants who will get the maximum score will be selected for the next round.",
+              "The first round is an aptitude test. There is a MCQ test which is to be solved in a given specific time. Participants with the maximum score will be selected for the next round",
             ],
           },
           {
@@ -88,9 +86,7 @@ const data = [
             roundNo: 3,
             roundName: "Interview",
             roundDesc: [
-              "The interviewer will conduct the technical round",
-              "It will be based on C, C++ & Java language (Or specified by sponsor)",
-              "According to performance candidates will be selected for the next round.",
+              "This will be the final round. Participants will have a formal conversation with the judges. Technical and non technical questions will be asked to the participants.",
             ],
           },
         ],
@@ -100,10 +96,11 @@ const data = [
   {
     id: 3,
     title: "Binary Breakout",
-    image: "/events/escaperoom.png",
+    image: "/events/Binary-Breakout.png",
     data: [
       {
         intro: [
+          "Escape Room 2.0",
           `Participants are presented with a series of binary-encoded challenges, ranging from deciphering encrypted messages to navigating through complex logic gates. To succeed, participants must employ their knowledge of binary code, Boolean algebra, and algorithmic thinking to unlock clues, solve puzzles, and ultimately "break out" of each stage.`,
 
           "Date- 23/02/2024 - 24/02/2024",
@@ -138,7 +135,7 @@ const data = [
   {
     id: 4,
     title: "Algo Mania",
-    image: "/events/algomania.jpeg",
+    image: "/events/AlgoMania.png",
     data: [
       {
         intro: [
@@ -171,7 +168,7 @@ const data = [
   {
     id: 5,
     title: "DesignX 2.0",
-    image: "/events/designx.png",
+    image: "/events/DesignX-2.0.png",
     data: [
       {
         intro: [

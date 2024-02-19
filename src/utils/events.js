@@ -28,19 +28,17 @@ const data = [
         rounds: [
           {
             roundNo: 1,
-            roundName: "Hackathon",
+            roundName: "Day 1",
             roundDesc: [
-              "The hackathon is a tech competition where teams of up to 4 members will have 9 hours to build a full-fledged app with a working backend and a decent frontend.",
-              "There are no limitations on the technologies used, so participants can use any language, platform, or framework to build their app.",
-              "Teams will be judged on the basis of their idea, their execution, feasibility of the project, usability, and overall development process. Judges will be looking for innovative and practical solutions that demonstrate technical excellence and creativity.",
-              "The final presentation is a crucial part of the competition. Participants will have to present their idea at the end of the hackathon with appropriate technological details. The presentation should include a demo of the app, an explanation of the technology used, and a summary of the features and benefits of the app.",
-              `The judging criteria will be based on the following:
-                Idea (originality, creativity, and potential impact)
-                Execution (quality of the app, use of appropriate technologies, and functionality)
-                Feasibility (realistic and practical application of the idea)
-                Usability (user experience and interface design)
-                Development Process (quality of the code, documentation, and teamwork)
-              `,
+              "The hackathon kicks off with an opening ceremony, where participants are introduced to the event theme, goals, and challenge statements.Teams are formed or pre- established, and they quickly dive into brainstorming sessions to generate ideas and outline their project concepts.",
+              ,
+            ],
+          },
+          {
+            roundNo: 2,
+            roundName: "Day 2",
+            roundDesc: [
+              "The second day of the hackathon is marked by intensified focus and determination as teams enter the final stretch of development. The hackathon concludes with a grand finale, where each team presents their projects to a panel of judges. Teams have a limited time to pitch their solutions, highlighting key features, technical achievements, business potential, and impact. Judges evaluate projects based on criteria such as creativity, technical complexity, usability, scalability, business potential, and presentation.",
               "We hope this brief provides a clear understanding of the rules, expectations, and goals of the hackathon. We wish all the participants good luck and look forward to seeing the innovative solutions they will create!",
             ],
           },
@@ -88,18 +86,11 @@ const data = [
           },
           {
             roundNo: 3,
-            roundName: "Technical Interview",
+            roundName: "Interview",
             roundDesc: [
               "The interviewer will conduct the technical round",
               "It will be based on C, C++ & Java language (Or specified by sponsor)",
               "According to performance candidates will be selected for the next round.",
-            ],
-          },
-          {
-            roundNo: 4,
-            roundName: "HR Interview",
-            roundDesc: [
-              "It will be final round and based on the performance candidates will be selected for the internship or letter of appreciation.",
             ],
           },
         ],
@@ -128,12 +119,16 @@ const data = [
         rounds: [
           {
             roundNo: 1,
-            roundName: "Escape Room",
+            roundName: "Day 1",
             roundDesc: [
-              "From the pool of 30 qualified teams, 5 teams will be formed randomly, with 4 players in each team.",
-              "Each team will be given a chit with a clue on it, which will act as a lead to solving the puzzle.",
-              "Volunteers will be placed in each room to provide guidance if necessary and ensure that the rules are followed.",
-              "The team to find all 5 clues and solve the puzzle will be declared the winner of the Treasure Hunt event.",
+              "The event kicks off with Round 1, where teams are introduced to the first set of challenges awaiting them in themed rooms. As teams enter the room, they are presented with a series of puzzles, clues, and challenges that they must solve within the allocated time of 10 minutes. ",
+            ],
+          },
+          {
+            roundNo: 2,
+            roundName: "Day 2: Final Round",
+            roundDesc: [
+              "The excitement continues on Day 2 with the Final Round, where top-performing teams from Round 1 advance to face even more formidable challenges in themed room that ramp up the complexity and intensity.",
             ],
           },
         ],
@@ -167,6 +162,40 @@ const data = [
               "Each team will be given a chit with a clue on it, which will act as a lead to solving the puzzle.",
               "Volunteers will be placed in each room to provide guidance if necessary and ensure that the rules are followed.",
               "The team to find all 5 clues and solve the puzzle will be declared the winner of the Treasure Hunt event.",
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "DesignX 2.0",
+    image: "/events/designx.png",
+    data: [
+      {
+        intro: [
+          "DesignX is a unique opportunity for participants to showcase their creative prowess in UI design. Participants will be engaging in a hands-on experience where you'll craft visually appealing interfaces using tools like Canva, Figma, or Photoshop. There will be an opportunity to elevate the design skills, tackle real-world problem statements, and gain valuable insights into the dynamics of user-centric design.",
+          "Date- 24th February,2024",
+
+          "Entry fees- 30/- per team",
+        ],
+        rules: [
+          "Team size should be restricted to 1-2 team members on",
+          "College devices will be provided and personal devices are allowed as well.",
+          "Use of platforms like Figma, Canva and Photoshop is allowed.",
+          "Participants must adhere to the specified theme and address the provided problem statement in their UI design.",
+          "Designs must be original and created solely by the participant.",
+          "Designs will be evaluated based on creativity, usability, adherence to the theme, and overall visual appeal.",
+          "Violation of any rules or code of conduct may lead to immediate disqualification.",
+          "Final decision will rest with the organizers.",
+        ],
+        rounds: [
+          {
+            roundNo: 1,
+            roundName: "Design X",
+            roundDesc: [
+              "The event begins with an energizing kickoff, where participants are briefed on the problem statement they will be addressing. Once the problem statement is revealed, participants have two hours to ideate, design, and prototype their UI solutions. As the deadline approaches, participants put the finishing touches on their designs, ensuring every element is polished and cohesive. With just minutes to spare, teams prepare to present their UI prototypes to a panel of judges and fellow participants. Judges evaluate projects based on criteria such as visual appeal, user experience, functionality, and alignment with the problem statement.",
             ],
           },
         ],

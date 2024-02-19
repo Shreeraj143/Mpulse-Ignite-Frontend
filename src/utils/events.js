@@ -56,7 +56,7 @@ const data = [
         intro: [
           "The mock placement is a simulated exercise designed to prepare participants for real-world job placement interviews in a corporate or professional setting. This event replicates the structure and atmosphere of actual job interviews, providing participants with invaluable experience, feedback, and confidence to excel in their future career endeavours.",
           "Date-23rd Feb, 2024",
-          "Entry fees - 30 /-",
+          "Entry fees - 30/-",
         ],
         rules: [
           "No internet access for any rounds.",
@@ -141,24 +141,27 @@ const data = [
         intro: [
           "Algomania is an electrifying competition designed to ignite the passion for algorithms and problem-solving among participants. This event serves as a platform for individuals to showcase their prowess in algorithmic thinking, data structures, and computational efficiency but in a fun way. In Algomania, participants are presented with a series of algorithmic challenges of varying difficulty levels.",
 
-          "Date- 24/02/2024",
-          "Entry Fees - 30 / -",
+          "Date-24th Feb, 2024",
+          "Entry Fees - 30/-",
         ],
         rules: [
-          "Participants must respect the property and facilities of the event venue and not cause any damage or disturbance.",
-          `Cheating, such as stealing another team's chits or hiding chits, is strictly prohibited and will result in disqualification from the event.`,
-          "Each team must follow the designated route and not venture outside of the designated area for the event.",
-          "The organizers reserve the right to disqualify any participant or team for violating the rules or causing disruption to the event.",
+          "Team size should be restricted to 1-2 team members only.",
+          "Violation of any rules or code of conduct may lead to immediate disqualification.",
+          "Final decision will rest with the organizers.",
         ],
         rounds: [
           {
             roundNo: 1,
-            roundName: "Escape Room",
+            roundName: "Maze",
             roundDesc: [
-              "From the pool of 30 qualified teams, 5 teams will be formed randomly, with 4 players in each team.",
-              "Each team will be given a chit with a clue on it, which will act as a lead to solving the puzzle.",
-              "Volunteers will be placed in each room to provide guidance if necessary and ensure that the rules are followed.",
-              "The team to find all 5 clues and solve the puzzle will be declared the winner of the Treasure Hunt event.",
+              "Participants navigate through the maze and find their path out with the least amount of time. Participants will be solving mini puzzles and finding a way out of the maze.",
+            ],
+          },
+          {
+            roundNo: 2,
+            roundName: "Coding",
+            roundDesc: [
+              "Participants solve a series of coding challenges within a specified time frame. The avg of both players will be considered as the final score.",
             ],
           },
         ],

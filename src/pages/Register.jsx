@@ -473,7 +473,7 @@ const Register = () => {
                   }
                 />
                 <label className={styles.floatinglabel} htmlFor="teammember1">
-                  Team member-1
+                  Team member-2
                 </label>
               </div>
             </div>
@@ -489,7 +489,7 @@ const Register = () => {
                     }
                   />
                   <label className={styles.floatinglabel} htmlFor="teammember2">
-                    Team member-2
+                    Team member-3
                   </label>
                 </div>
               </div>
@@ -510,7 +510,7 @@ const Register = () => {
                       className={styles.floatinglabel}
                       htmlFor="teammember3"
                     >
-                      Team member-3
+                      Team member-4
                     </label>
                   </div>
                 </div>

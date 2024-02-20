@@ -65,7 +65,7 @@ const Register = () => {
   const years = ["1st", "2nd", "3rd", "4th"];
   const events = [
     "Algo Mania",
-    "Design-X",
+    "DesignX 2.0",
     "Hackathon",
     "Mock Placement",
     "Binary Breakout",
@@ -122,7 +122,7 @@ const Register = () => {
     if (
       data.event_name === "Algo Mania" ||
       data.event_name === "Mock Placement" ||
-      data.event_name === "Design-X" ||
+      data.event_name === "DesignX 2.0" ||
       data.event_name === "Binary Breakout"
     ) {
       setFees(30);
@@ -140,7 +140,7 @@ const Register = () => {
       // }
     }
     //  else if (
-    //   data.event_name === "Design-X" ||
+    //   data.event_name === "DesignX 2.0" ||
     //   data.event_name === "Binary Breakout"
     // ) {
     //   let fee = 30;
@@ -459,7 +459,8 @@ const Register = () => {
         </div>
         {(data.event_name === "Hackathon" ||
           data.event_name === "Binary Breakout" ||
-          data.event_name === "Design-X") && (
+          data.event_name === "Algo Mania" ||
+          data.event_name === "DesignX 2.0") && (
           <>
             <div className={styles.row1}>
               <div className={styles.floatinglabelgroup}>
@@ -472,42 +473,48 @@ const Register = () => {
                   }
                 />
                 <label className={styles.floatinglabel} htmlFor="teammember1">
-                  Team member
+                  Team member-1
                 </label>
               </div>
             </div>
-            <div className={styles.row1}>
-              <div className={styles.floatinglabelgroup}>
-                <input
-                  type="text"
-                  id="teammember2"
-                  className={styles.formcontrol}
-                  onChange={(e) =>
-                    setData({ ...data, teammember2: e.target.value })
-                  }
-                />
-                <label className={styles.floatinglabel} htmlFor="teammember2">
-                  Team member
-                </label>
-              </div>
-            </div>
-            {data.event_name !== "Design-X" && (
+            {data.event_name !== "Algo Mania" && (
               <div className={styles.row1}>
                 <div className={styles.floatinglabelgroup}>
                   <input
                     type="text"
-                    id="teammember3"
+                    id="teammember2"
                     className={styles.formcontrol}
                     onChange={(e) =>
-                      setData({ ...data, teammember3: e.target.value })
+                      setData({ ...data, teammember2: e.target.value })
                     }
                   />
-                  <label className={styles.floatinglabel} htmlFor="teammember3">
-                    Team member
+                  <label className={styles.floatinglabel} htmlFor="teammember2">
+                    Team member-2
                   </label>
                 </div>
               </div>
             )}
+            {data.event_name !== "DesignX 2.0" &&
+              data.event_name !== "Algo Mania" && (
+                <div className={styles.row1}>
+                  <div className={styles.floatinglabelgroup}>
+                    <input
+                      type="text"
+                      id="teammember3"
+                      className={styles.formcontrol}
+                      onChange={(e) =>
+                        setData({ ...data, teammember3: e.target.value })
+                      }
+                    />
+                    <label
+                      className={styles.floatinglabel}
+                      htmlFor="teammember3"
+                    >
+                      Team member-3
+                    </label>
+                  </div>
+                </div>
+              )}
           </>
         )}
         <div className={styles.row1}>

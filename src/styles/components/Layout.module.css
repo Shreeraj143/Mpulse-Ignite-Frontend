@@ -49,8 +49,12 @@ nav ul li a {
   text-transform: capitalize;
 }
 
-nav ul li a:hover {
+nav ul li a:hover,
+.active-link {
   color: #0cd1eb;
+  border-bottom-style: solid;
+  border-bottom-width: 2.1px;
+  width: fit-content;
 }
 
 /* footer */

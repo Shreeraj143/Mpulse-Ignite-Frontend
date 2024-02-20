@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import { AiOutlineClose } from "react-icons/ai";
 import { MdMenu } from "react-icons/md";
 import styles from "../styles/components/Layout.module.css";
@@ -14,9 +14,9 @@ const Navbar = () => {
       className={`${open ? styles.show : ""}`}
       style={{ background: location.pathname !== "/" && "#333333" }}
     >
-      <Link to="/">
+      <NavLink to="/">
         <img src="/ignite-logo.png" alt="ignite-logo" />
-      </Link>
+      </NavLink>
 
       {open ? (
         <AiOutlineClose
@@ -29,19 +29,47 @@ const Navbar = () => {
 
       <ul>
         <li onClick={() => setOpen(false)}>
-          <Link to="/">Home</Link>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? styles["active-link"] : undefined
+            }
+            to="/"
+          >
+            Home
+          </NavLink>
         </li>
         <li onClick={() => setOpen(false)}>
-          <Link to="/about">About us</Link>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? styles["active-link"] : undefined
+            }
+            to="/about"
+          >
+            About us
+          </NavLink>
         </li>
         <li onClick={() => setOpen(false)}>
-          <Link to="/events">Events</Link>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? styles["active-link"] : undefined
+            }
+            to="/events"
+          >
+            Events
+          </NavLink>
         </li>
         {/* <li onClick={() => setOpen(false)}>
-          <Link to="/sponsors">Sponsors</Link>
+          <NavLink to="/sponsors">Sponsors</NavLink>
         </li> */}
         <li onClick={() => setOpen(false)}>
-          <Link to="/gallery">Gallery</Link>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? styles["active-link"] : undefined
+            }
+            to="/gallery"
+          >
+            Gallery
+          </NavLink>
         </li>
       </ul>
     </nav>

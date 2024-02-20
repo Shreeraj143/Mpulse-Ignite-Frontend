@@ -6,6 +6,7 @@ const data = [
     data: [
       {
         intro: [
+          "I2E Hackathon: Innovator to Entrepreneur",
           "Innovator to Entrepreneur: Hackathon, a two-day event offers participants a unique opportunity to showcase their problem-solving prowess and innovative thinking. With the freedom to choose their domain, attendees will tackle real-world challenges, developing comprehensive solutions and crafting viable business models. Through hands-on experience and collaborative teamwork, participants will sharpen their technical skills, critical thinking abilities, and presentation expertise.",
           "Date- 23 & 24 Feb 2024.",
           "Entry Fees- 100/- per TEAM",
@@ -54,6 +55,7 @@ const data = [
     data: [
       {
         intro: [
+          "Mock Placement: Where Opportunity Meets Preparation!",
           "The mock placement is a simulated exercise designed to prepare participants for real-world job placement interviews in a corporate or professional setting. This event replicates the structure and atmosphere of actual job interviews, providing participants with invaluable experience, feedback, and confidence to excel in their future career endeavours.",
           "Date-23rd Feb, 2024",
           "Entry fees - 30/-",
@@ -100,6 +102,7 @@ const data = [
     data: [
       {
         intro: [
+          "Binary Breakout: Crack the code to freedom!",
           "Escape Room 2.0",
           `Participants are presented with a series of binary-encoded challenges, ranging from deciphering encrypted messages to navigating through complex logic gates. To succeed, participants must employ their knowledge of binary code, Boolean algebra, and algorithmic thinking to unlock clues, solve puzzles, and ultimately "break out" of each stage.`,
 
@@ -139,6 +142,7 @@ const data = [
     data: [
       {
         intro: [
+          "AlgoMania: Algorithm Adventure Awaits",
           "Algomania is an electrifying competition designed to ignite the passion for algorithms and problem-solving among participants. This event serves as a platform for individuals to showcase their prowess in algorithmic thinking, data structures, and computational efficiency but in a fun way. In Algomania, participants are presented with a series of algorithmic challenges of varying difficulty levels.",
 
           "Date-24th Feb, 2024",
@@ -175,6 +179,7 @@ const data = [
     data: [
       {
         intro: [
+          "DesignX: Where Ideas Become Interfaces",
           "DesignX is a unique opportunity for participants to showcase their creative prowess in UI design. Participants will be engaging in a hands-on experience where you'll craft visually appealing interfaces using tools like Canva, Figma, or Photoshop. There will be an opportunity to elevate the design skills, tackle real-world problem statements, and gain valuable insights into the dynamics of user-centric design.",
           "Date- 24th February,2024",
 

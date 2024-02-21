@@ -145,7 +145,7 @@ const data = [
           "AlgoMania: Algorithm Adventure Awaits",
           "Algomania is an electrifying competition designed to ignite the passion for algorithms and problem-solving among participants. This event serves as a platform for individuals to showcase their prowess in algorithmic thinking, data structures, and computational efficiency but in a fun way. In Algomania, participants are presented with a series of algorithmic challenges of varying difficulty levels.",
 
-          "Date-24th Feb, 2024",
+          "Date- 23rd & 24th Feb, 2024",
           "Entry Fees - 30/-",
         ],
         rules: [

@@ -145,7 +145,7 @@ const data = [
           "AlgoMania: Algorithm Adventure Awaits",
           "Algomania is an electrifying competition designed to ignite the passion for algorithms and problem-solving among participants. This event serves as a platform for individuals to showcase their prowess in algorithmic thinking, data structures, and computational efficiency but in a fun way. In Algomania, participants are presented with a series of algorithmic challenges of varying difficulty levels.",
 
-          "Date- 23rd & 24th Feb, 2024",
+          "Date- 24th Feb, 2024",
           "Entry Fees - 30/-",
         ],
         rules: [
@@ -156,14 +156,14 @@ const data = [
         rounds: [
           {
             roundNo: 1,
-            roundName: "Maze",
+            roundName: "Coders Clash",
             roundDesc: [
-              "Participants navigate through the maze and find their path out with the least amount of time. Participants will be solving mini puzzles and finding a way out of the maze.",
+              "Participants have to solve interesting & intellectual puzzles based on their knowledge of basic coding concepts.",
             ],
           },
           {
             roundNo: 2,
-            roundName: "Coding",
+            roundName: "Tech Tussle",
             roundDesc: [
               "Participants solve a series of coding challenges within a specified time frame. The avg of both players will be considered as the final score.",
             ],

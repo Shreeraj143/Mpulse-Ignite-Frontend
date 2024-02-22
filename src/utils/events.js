@@ -10,12 +10,36 @@ const data = [
           "Innovator to Entrepreneur: Hackathon, a two-day event offers participants a unique opportunity to showcase their problem-solving prowess and innovative thinking. With the freedom to choose their domain, attendees will tackle real-world challenges, developing comprehensive solutions and crafting viable business models. Through hands-on experience and collaborative teamwork, participants will sharpen their technical skills, critical thinking abilities, and presentation expertise.",
           "Date- 23 & 24 Feb 2024.",
           "Entry Fees- 100/- per TEAM",
+          "Scroll below for Problem Statements",
 
           "Judging criteria-",
           "● Idea/Solution",
           "● Product",
           "● Business potential",
           "● Presentation",
+
+          "● Problem Statements:",
+          "Level 1: ",
+          "1] Develop an advanced app-based solution aimed at providing market access to micro and small enterprises through a comprehensive platform. The solution will feature detailed business profiles with analytics, customizable product listings with multimedia support, advanced order management systems with inventory tracking, interactive promotional features including targeted marketing campaigns, and integrated customer feedback mechanisms. Implement robust search algorithms and smart filtering options to enhance user experience and facilitate seamless interaction between buyers and sellers.",
+
+          "2] Develop a solution to empower farmers in efficiently managing government-aided schemes and accessing crucial crop information, including weather forecasts, market prices, and more. The solution will incorporate features like weed detection, area-specific weather forecasts, and facilitate farmer-buyer connections to enhance market accessibility. Optionally, integrate disease detection using machine learning for comprehensive crop health monitoring.",
+
+          "3] Develop an advanced web/app-based healthcare solution to empower patients in direct communication with pharmacists, seamless ordering of medicines, and effortless management of prescriptions. The solution will feature a user-friendly interface for real-time chat with pharmacists, secure prescription uploads, medication delivery tracking, medication reminders, dosage instructions, and secure payment options, offering patients a comprehensive platform for streamlined medication management.",
+
+          "4] Develop a comprehensive web platform to empower event organizers in streamlining collaboration and management tasks for seamless event execution. The platform will offer features including shared calendars, task assignment, budget management, attendee RSVP tracking, vendor management, collaborative document sharing, communication tools, and analytics/reporting. This user-friendly platform will enable event organizers to efficiently plan, coordinate, and evaluate events, enhancing productivity and success rates.",
+
+          "5] Student Innovation : Develop an innovative solution in the field of travel and tourism to reimagine the way travelers explore destinations, book accommodations, and engage in activities while prioritizing safety, supporting local communities, and promoting environmental sustainability.",
+
+          "Level: 2",
+          "1] Computer Vision-Based Retail Optimization : Develop a computer vision solution aimed at streamlining retail operations. Create a system capable of automatically tracking inventory, monitoring shelf organization, and analyzing customer behavior. This solution should enable better product placement strategies, ultimately enhancing store efficiency and customer experience.",
+
+          "2] ML-Powered Mental Health Companion : Craft a web application leveraging ML algorithms to offer personalized mental health assistance and resources. Incorporate mood tracking, sentiment analysis, and predictive modeling to provide tailored recommendations for coping mechanisms, therapy options, and self-care activities. Utilize readily available models from Hugging Face for mood and sentiment tracking to enhance user experience and accessibility.",
+
+          "3] Communication Skills Enhancement Tool : Create a versatile web or mobile application designed to bolster the communication skills of students and professionals. Utilize state-of-the-art models from Hugging Face for grammar checking, summarization, and paraphrasing. The platform should offer users the ability to refine their written communication by providing instant feedback on grammar errors, condensing lengthy texts into concise summaries, and offering alternative phrasing suggestions to enhance clarity and coherence.",
+
+          "4] Develop an innovative attendance system using facial recognition technology to streamline and automate the attendance tracking process in educational institutions or workplaces. The system should accurately identify individuals based on facial features captured through a camera and maintain a secure, reliable record of attendance. It should also have User Enrollment and Management, Attendance Reporting and Analytics",
+
+          "5] Developing an accessible and user-friendly sign language to text and text to speech system to facilitate communication for individuals who are deaf or hard of hearing, as well as those who are blind or visually impaired. The system should accurately translate sign language gestures into written text and convert written text into spoken language, enabling seamless interaction and information exchange between users.",
         ],
         rules: [
           "Team size should be restricted to 1-4 team members only.",
@@ -167,6 +191,12 @@ const data = [
             roundDesc: [
               "Participants solve a series of coding challenges within a specified time frame. The avg of both players will be considered as the final score.",
             ],
+          },
+        ],
+        problemStatement: [
+          {
+            levelNo: 1,
+            levelDesc: [],
           },
         ],
       },

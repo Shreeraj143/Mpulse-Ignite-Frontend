@@ -71,6 +71,16 @@ const Navbar = () => {
             Gallery
           </NavLink>
         </li>
+        <li onClick={() => setOpen(false)}>
+          <NavLink
+            className={({ isActive }) =>
+              isActive ? styles["active-link"] : undefined
+            }
+            to="/sponsors"
+          >
+            Sponsors
+          </NavLink>
+        </li>
       </ul>
     </nav>
   );

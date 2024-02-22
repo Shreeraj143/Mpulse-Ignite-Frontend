@@ -1,15 +1,15 @@
-import React, { useState } from 'react';
-import styles from '../../styles/pages/Events.module.css';
-import { AiOutlineClose } from 'react-icons/ai';
-import { useNavigate } from 'react-router-dom';
-import { useSelector } from 'react-redux';
+import React, { useState } from "react";
+import styles from "../../styles/pages/Events.module.css";
+import { AiOutlineClose } from "react-icons/ai";
+import { useNavigate } from "react-router-dom";
+import { useSelector } from "react-redux";
 
 const EventPopup = ({ setOpen }) => {
   const { data } = useSelector((state) => state.eventPopup);
 
   console.log(data.data[0].intro);
 
-  const [tab, setTabs] = useState('intro');
+  const [tab, setTabs] = useState("intro");
 
   const navigate = useNavigate();
 
@@ -24,25 +24,25 @@ const EventPopup = ({ setOpen }) => {
         <div className={styles.content}>
           <div className={styles.tabs}>
             <button
-              onClick={() => setTabs('intro')}
-              className={`${tab === 'intro' ? styles.active : ''}`}
+              onClick={() => setTabs("intro")}
+              className={`${tab === "intro" ? styles.active : ""}`}
             >
               Intro
             </button>
             <button
-              onClick={() => setTabs('rules')}
-              className={`${tab === 'rules' ? styles.active : ''}`}
+              onClick={() => setTabs("rules")}
+              className={`${tab === "rules" ? styles.active : ""}`}
             >
               Rules
             </button>
             <button
-              onClick={() => setTabs('rounds')}
-              className={`${tab === 'rounds' ? styles.active : ''}`}
+              onClick={() => setTabs("rounds")}
+              className={`${tab === "rounds" ? styles.active : ""}`}
             >
               Rounds
             </button>
           </div>
-          {tab === 'intro' ? (
+          {tab === "intro" ? (
             <div className={styles.intro}>
               {data.data[0].intro.map((para, index) => (
                 <p key={index}>{para}</p>
@@ -50,14 +50,14 @@ const EventPopup = ({ setOpen }) => {
               <button
                 onClick={() => {
                   setOpen(false);
-                  navigate('/register');
+                  navigate("/register");
                 }}
               >
                 Click here to register
               </button>
               <div className={styles.gap}></div>
             </div>
-          ) : tab === 'rules' ? (
+          ) : tab === "rules" ? (
             <div className={styles.rules}>
               <ul>
                 {data.data[0].rules.map((rule) => (

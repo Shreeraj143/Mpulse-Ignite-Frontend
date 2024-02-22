@@ -1,6 +1,6 @@
-import React from 'react';
-import { Helmet } from 'react-helmet';
-import styles from '../styles/pages/Sponsors.module.css';
+import React from "react";
+import { Helmet } from "react-helmet";
+import styles from "../styles/pages/Sponsors.module.css";
 
 const Sponsors = () => {
   return (
@@ -11,6 +11,10 @@ const Sponsors = () => {
 
       <img src="/ignite-logo.png" alt="ignite-logo" />
       <h1>Sponsors</h1>
+      <div className={styles["sponsors-logo"]}>
+        <img src="/sponsors/graduData.jpg" alt="" />
+        <img src="/sponsors/itDesk.png" alt="" />
+      </div>
     </div>
   );
 };

@@ -81,7 +81,7 @@ const data = [
         intro: [
           "Mock Placement: Where Opportunity Meets Preparation!",
           "The mock placement is a simulated exercise designed to prepare participants for real-world job placement interviews in a corporate or professional setting. This event replicates the structure and atmosphere of actual job interviews, providing participants with invaluable experience, feedback, and confidence to excel in their future career endeavours.",
-          "Date-23rd Feb, 2024",
+          "Date-24th Feb, 2024",
           "Entry fees - 30/-",
         ],
         rules: [
@@ -130,7 +130,7 @@ const data = [
           "Escape Room 2.0",
           `Participants are presented with a series of binary-encoded challenges, ranging from deciphering encrypted messages to navigating through complex logic gates. To succeed, participants must employ their knowledge of binary code, Boolean algebra, and algorithmic thinking to unlock clues, solve puzzles, and ultimately "break out" of each stage.`,
 
-          "Date- 23/02/2024 - 24/02/2024",
+          "Date- 23rd & 24th Feb, 2024",
           "Entry Fees- 30/-",
         ],
         rules: [
@@ -169,7 +169,7 @@ const data = [
           "AlgoMania: Algorithm Adventure Awaits",
           "Algomania is an electrifying competition designed to ignite the passion for algorithms and problem-solving among participants. This event serves as a platform for individuals to showcase their prowess in algorithmic thinking, data structures, and computational efficiency but in a fun way. In Algomania, participants are presented with a series of algorithmic challenges of varying difficulty levels.",
 
-          "Date- 24th Feb, 2024",
+          "Date- 23rd Feb, 2024",
           "Entry Fees - 30/-",
         ],
         rules: [

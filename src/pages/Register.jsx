@@ -8,7 +8,7 @@ import imageCompression from "browser-image-compression";
 
 const qrs = {
   30: "/qrs/30rs.png",
-  100: "/qrs/100rs.png",
+  50: "/qrs/50rs.png",
 };
 
 const units = ["bytes", "KiB", "MiB", "GiB", "TiB", "PiB", "EiB", "ZiB", "YiB"];
@@ -127,7 +127,7 @@ const Register = () => {
     ) {
       setFees(30);
     } else if (data.event_name === "Hackathon") {
-      setFees(100);
+      setFees(50);
       // let fee = 150;
       // if (data.teammember1.length > 0) {
       //   fee += 150;

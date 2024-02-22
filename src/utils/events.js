@@ -9,7 +9,7 @@ const data = [
           "I2E Hackathon: Innovator to Entrepreneur",
           "Innovator to Entrepreneur: Hackathon, a two-day event offers participants a unique opportunity to showcase their problem-solving prowess and innovative thinking. With the freedom to choose their domain, attendees will tackle real-world challenges, developing comprehensive solutions and crafting viable business models. Through hands-on experience and collaborative teamwork, participants will sharpen their technical skills, critical thinking abilities, and presentation expertise.",
           "Date- 23 & 24 Feb 2024.",
-          "Entry Fees- 100/- per TEAM",
+          "Entry Fees- 50/- per TEAM",
           // "<-----------------------------Scroll below for Problem Statements----------------------------->",
 
           // "Judging criteria-",

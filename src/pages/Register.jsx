@@ -68,7 +68,7 @@ const Register = () => {
     "DesignX 2.0",
     "Hackathon",
     "Mock Placement",
-    "Binary Breakout",
+    // "Binary Breakout",
   ];
 
   const [data, setData] = useState({
@@ -122,8 +122,8 @@ const Register = () => {
     if (
       data.event_name === "Algo Mania" ||
       data.event_name === "Mock Placement" ||
-      data.event_name === "DesignX 2.0" ||
-      data.event_name === "Binary Breakout"
+      data.event_name === "DesignX 2.0"
+      // data.event_name === "Binary Breakout"
     ) {
       setFees(30);
     } else if (data.event_name === "Hackathon") {

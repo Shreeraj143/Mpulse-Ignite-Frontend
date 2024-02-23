@@ -7,7 +7,7 @@ import styles from "../styles/pages/Register.module.css";
 import imageCompression from "browser-image-compression";
 
 const qrs = {
-  30: "/qrs/30rs.png",
+  30: "/qrs/30rs.jpeg",
   50: "/qrs/50rs.png",
 };
 
